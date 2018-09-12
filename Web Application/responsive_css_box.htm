@@ -1,0 +1,44 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="responsive_css_box_style.css">
+</head>
+<body>
+  <div><input type='button' value='Edit' class='EditClick' onclick='editfn(this.id)' id='edit_user' />
+  <script>
+  function editfn(ebid)
+  {
+    document.getElementById('id01').style.display='block'
+  }
+  function backbtn()
+  {
+    var z=confirm('All changes will be discarded');
+    if(z==true){document.getElementById('id01').style.display='none';}
+  }
+  </script>
+  <!-- The Modal -->
+  <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <!-- Modal Content -->
+    <center>
+    <h2>Edit the Details of helper:</h2>
+    <form>
+      <div class="container">
+        <fieldset>
+          <input id="fname" type="text" name="fname" autofocus placeholder="First Name">
+          <input id="lname" type="text" name="lname" placeholder="Last Name">
+          <input id="c1" type="text" name="c1" placeholder="Contact No.">
+          <input id="c2" type="text" name="c2" placeholder="Alternate Contact No.(Optional)">
+          <input id="username" type="text" name="username" placeholder="User Name" >
+          <input type="text" name="pwd1" placeholder="Password for Helper"></input>
+        </div>
+        <br><br>
+        <div>
+        <button  class="evbuttons" id="updbtn">Update</button>
+        <button  class="evbuttons" id="rstbtn">Reset</button>
+      </div>
+      </fieldset>
+    </form>
+    </center>
+  </div>
+</body>
+</html>

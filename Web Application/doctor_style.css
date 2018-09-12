@@ -1,0 +1,61 @@
+/*html{background: url(imageif-gray-gradient-wallpaper-hd-9-color-hd-background-hd-screensavers-hd.jpg) no-repeat center fixed;
+background-size: cover;
+opacity: 0.5;
+filter: alpha(opacity=50);
+}*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  overflow:hidden;
+  background-color: #333;
+}
+li{
+  float: left;
+  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 20px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+li a:hover{
+  background-color: #555;
+      color: white;
+}
+#s{
+  float:right;
+}
+.active{
+  background-color: #4CAF50;
+}
+#icon{
+  border-radius: 50px
+}
+#loginbt{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  border-radius: 4px;
+  padding: 16px 32px;
+  text-align: center;
+  width: 250px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+#loginbt:hover {
+  background-color: white;
+  color: #4CAF50;
+  border: 2px solid #4CAF50;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

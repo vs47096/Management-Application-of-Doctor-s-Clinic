@@ -1,0 +1,35 @@
+<html>
+<head>
+  <script>
+  var arr=[];
+  var med=['med1','med2','med3'];
+  var med1={"2017-03-31":24,"2018-06-21":6,"2017-01-5":10};
+  var med2={"2015-02-11":12,"2017-04-13":8,"2014-07-9":15};
+  var med3={"2016-05-20":9,"2017-08-15":14,"2016-01-18":20};
+  arr.push(med);
+  arr.push(med1);
+  arr.push(med2);
+  arr.push(med3);
+function myfn()
+{
+  var dd1=document.getElementById("meddd");
+  for(var i=0;i<arr[0].length;i++)
+  {
+    var opt=document.createElement("option");
+    opt.appendChild(document.createTextNode(arr[0][i]));
+    opt.value=arr[0][i];
+    dd1.appendChild(opt);
+  }
+  alert(arr[1].length);
+  //var dd2=document.getElementById("expdd");
+}
+</script>
+</head>
+<body onload="myfn()">
+<select id="meddd">
+</select>
+<select id="expdd">
+<input type="text">
+</script>
+</body>
+</html>
