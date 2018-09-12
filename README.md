@@ -14,4 +14,13 @@ One of the functions include creation of bills. Here, the list of medicines avai
 Also, when discount is applied on any medicine or on the whole bill, the updated amount payable by the customer will be shown in the Amount box.
 The billing page looks like this:
 
-<img src="/Screenshots/Screenshot (52).png" alt="Home Page" width="880" height="500"/>
+<img src="/Screenshots/Screenshot (52).png" alt="Billing Page" width="880" height="500"/>
+
+Seperate login section is provided for the doctor who has excess to some of the admin functions. He/she is the only one who can see the total sales. There is also an option providede to keep a log of all the activities done by the helper which can solely be viewed only by the doctor.
+Doctor`s login section is as shown:
+
+<img src="/Screenshots/Screenshot (53).png" alt="Doctor`s Login Page" width="880" height="500"/>
+
+One of the functions available to the doctor is that only he/she can see view details of the helpers or create a new helper account. The pages related to these functions look like this:
+
+<img src="/Screenshots/Screenshot (54).png" alt="Helper`s Details Page" width="880" height="500"/>
