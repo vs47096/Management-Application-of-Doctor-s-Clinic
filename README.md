@@ -1,5 +1,4 @@
 # Management-Application-of-Doctor-s-Clinic
-
 This is developed using web languages and is focused on managing clinic activities and stock of medicines along with the list of helpers their activities and expenses of the shop by keeping along of each and every login and transaction. It is developed using HTML, CSS, PHP and JavaScript. 
 
 The index page that will open has the login form where user will enter his/her credentials. After clicking on login, the credentials will be checked against the database. The index page looks like this:
